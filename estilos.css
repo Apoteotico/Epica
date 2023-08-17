@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+p {
+  background-color: lightyellow;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+.destacado {
+  font-style: italic;
+  color: red;
+}
+#blog-title {
+  text-align: center;
+  color: purple;
+}
+article p:first-child {
+  border-bottom: 2px dotted gray;
+}
+li > a {
+  background-color: lightgray;
+}
+.comments div:last-child p {
+  color: lightgray;
+}
+a:hover {
+  text-decoration: underline;
+}
+/*punto 5*/
+p:not(.destacado) {
+  margin: 20px 0;
+}
+h2{
+  margin-top: 50px;
+}
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main{
+  padding: 20px;
+  border: 1px solid;
+}
+.destacado:hover{
+  background-color: lightblue;
+transition: 0.3s;
+cursor: pointer;
+}
+img{
+  width: 250px;
+}
